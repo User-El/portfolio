@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <!-- Include CSS CDNs -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css'>
+        <style>
+            body {
+            padding: 50px 0px 0px 0px;
+            background-color: rgb(14, 5, 36);;
+            z-index: 0; }
+            #overlay
+            {
+                position:relative;
+                z-index: 0;
+                margin:50px;               
+            }
+            #particles-js {
+                background-color: rgb(14, 5, 36);;
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0; /*This is important to position the elements*/
+            }
+        </style>
+    </head>
+    <body>
+
+
+    </body>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"
+    integrity="sha256-PsB+5ZEsBlDx9Fi/GXc1bZmC7wEQzZK4bM/VwNm1L6c="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.2/cjs/popper-base.min.js"></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'></script>
+    <script src='js/typed.js'></script>
+    <script src="js/particles.js"></script>
+    <script>particlesJS.load('particles-js', 'particles.json');</script>
+    <script>
+        var typed = new Typed('.typing', {
+            strings: ["Welcome to my tutorials", "I Hope you enjoy it."],
+            typeSpeed: 20,
+            backSpeed:20,
+            loop:true,
+            loopCount:false
+            });
+    </script>
+
+</html>
